@@ -48,7 +48,7 @@ MonoBehaviour:
   m_MinSize: {x: 300, y: 100}
   m_MaxSize: {x: 24288, y: 16192}
   vertical: 0
-  controlID: 94
+  controlID: 90
 --- !u!114 &3
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -321,7 +321,7 @@ MonoBehaviour:
     m_SkipHidden: 0
     m_SearchArea: 1
     m_Folders:
-    - Assets/assets/Devoir Rendu GD3/Materials
+    - Assets
     m_Globs: []
     m_OriginalText: 
     m_ImportLogFlags: 0
@@ -329,16 +329,16 @@ MonoBehaviour:
   m_ViewMode: 1
   m_StartGridSize: 64
   m_LastFolders:
-  - Assets/assets/Devoir Rendu GD3/Materials
+  - Assets
   m_LastFoldersGridSize: -1
-  m_LastProjectPath: C:\Users\katan\Desktop\Brassart_portable\Moteur de jeu\Lion_Alexis_Nature_Morte
+  m_LastProjectPath: C:\Users\katan\Documents\GitHub\Unity_Lion_Alexis_GD3_Materials\Lion_Alexis_Nature_Morte
   m_LockTracker:
     m_IsLocked: 0
   m_FolderTreeState:
     scrollPos: {x: 0, y: 0}
-    m_SelectedIDs: ea5b0000
-    m_LastClickedID: 23530
-    m_ExpandedIDs: 0000000084590000a8590000ac59000000ca9a3bffffff7f
+    m_SelectedIDs: ee050000
+    m_LastClickedID: 1518
+    m_ExpandedIDs: 00000000ee050000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -393,7 +393,7 @@ MonoBehaviour:
   m_ListAreaState:
     m_SelectedInstanceIDs: 
     m_LastClickedInstanceID: 0
-    m_HadKeyboardFocusLastEvent: 1
+    m_HadKeyboardFocusLastEvent: 0
     m_ExpandedInstanceIDs: c6230000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
@@ -506,9 +506,9 @@ MonoBehaviour:
   m_SceneHierarchy:
     m_TreeViewState:
       scrollPos: {x: 0, y: 0}
-      m_SelectedIDs: 769fffff
+      m_SelectedIDs: 
       m_LastClickedID: 0
-      m_ExpandedIDs: 18fbffff
+      m_ExpandedIDs: bc30ffff
       m_RenameOverlay:
         m_UserAcceptedRename: 0
         m_Name: 
@@ -977,11 +977,11 @@ MonoBehaviour:
   m_Rotation:
     m_Target: {x: -0.24599989, y: -0.12836452, z: 0.03288667, w: -0.96015954}
     speed: 2
-    m_Value: {x: -0.24590242, y: -0.13124564, z: 0.033624835, w: -0.95977914}
+    m_Value: {x: -0.24599989, y: -0.12836452, z: 0.03288667, w: -0.96015954}
   m_Size:
     m_Target: 10
     speed: 2
-    m_Value: 5.7674017
+    m_Value: 10
   m_Ortho:
     m_Target: 0
     speed: 2
