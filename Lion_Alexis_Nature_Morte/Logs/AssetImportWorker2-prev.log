@@ -15,7 +15,7 @@ C:/Users/katan/Documents/GitHub/Unity_Lion_Alexis_GD3_Materials/Lion_Alexis_Natu
 -logFile
 Logs/AssetImportWorker2.log
 -srvPort
-63138
+55861
 Successfully changed project path to: C:/Users/katan/Documents/GitHub/Unity_Lion_Alexis_GD3_Materials/Lion_Alexis_Nature_Morte
 C:/Users/katan/Documents/GitHub/Unity_Lion_Alexis_GD3_Materials/Lion_Alexis_Nature_Morte
 [UnityMemory] Configuration Parameters - Can be set up in boot.config
@@ -49,12 +49,12 @@ C:/Users/katan/Documents/GitHub/Unity_Lion_Alexis_GD3_Materials/Lion_Alexis_Natu
     "memorysetup-temp-allocator-size-cloud-worker=32768"
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gfx=262144"
-Player connection [32096] Host "[IP] 192.168.1.10 [Port] 0 [Flags] 2 [Guid] 1268982376 [EditorId] 1268982376 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-UPCCEJ5) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+Player connection [27280] Host "[IP] 192.168.1.10 [Port] 0 [Flags] 2 [Guid] 1579470779 [EditorId] 1579470779 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-UPCCEJ5) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
 
-Player connection [32096] Host "[IP] 192.168.1.10 [Port] 0 [Flags] 2 [Guid] 1268982376 [EditorId] 1268982376 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-UPCCEJ5) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+Player connection [27280] Host "[IP] 192.168.1.10 [Port] 0 [Flags] 2 [Guid] 1579470779 [EditorId] 1579470779 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-UPCCEJ5) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
 
 [Physics::Module] Initialized MultithreadedJobDispatcher with 7 workers.
-Refreshing native plugins compatible for Editor in 18.25 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 1525.76 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2022.3.10f1 (ff3792e53c62)
 [Subsystems] Discovering subsystems at path A:/Program Files/Unity Hub/unity/2022.3.10f1/Editor/Data/Resources/UnitySubsystems
@@ -70,44 +70,44 @@ Initialize mono
 Mono path[0] = 'A:/Program Files/Unity Hub/unity/2022.3.10f1/Editor/Data/Managed'
 Mono path[1] = 'A:/Program Files/Unity Hub/unity/2022.3.10f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
 Mono config path = 'A:/Program Files/Unity Hub/unity/2022.3.10f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56936
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56996
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: A:/Program Files/Unity Hub/unity/2022.3.10f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.007978 seconds.
-- Loaded All Assemblies, in  0.701 seconds
+Registered in 0.143222 seconds.
+- Loaded All Assemblies, in  6.112 seconds
 Native extension for WindowsStandalone target not found
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.265 seconds
-Domain Reload Profiling: 967ms
-	BeginReloadAssembly (292ms)
+- Finished resetting the current domain, in  0.296 seconds
+Domain Reload Profiling: 6408ms
+	BeginReloadAssembly (4450ms)
 		ExecutionOrderSort (0ms)
 		DisableScriptedObjects (0ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
 		CreateAndSetChildDomain (1ms)
-	RebuildCommonClasses (123ms)
-	RebuildNativeTypeToScriptingClass (20ms)
-	initialDomainReloadingComplete (72ms)
-	LoadAllAssembliesAndSetupDomain (194ms)
-		LoadAssemblies (291ms)
+	RebuildCommonClasses (413ms)
+	RebuildNativeTypeToScriptingClass (11ms)
+	initialDomainReloadingComplete (190ms)
+	LoadAllAssembliesAndSetupDomain (1048ms)
+		LoadAssemblies (4450ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (192ms)
-			TypeCache.Refresh (190ms)
-				TypeCache.ScanAssembly (176ms)
+		AnalyzeDomain (1045ms)
+			TypeCache.Refresh (1044ms)
+				TypeCache.ScanAssembly (798ms)
 			ScanForSourceGeneratedMonoScriptInfo (0ms)
-			ResolveRequiredComponents (0ms)
-	FinalizeReload (266ms)
+			ResolveRequiredComponents (1ms)
+	FinalizeReload (297ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (205ms)
+		SetupLoadedEditorAssemblies (231ms)
 			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (10ms)
-			SetLoadedEditorAssemblies (8ms)
+			InitializePlatformSupportModulesInManaged (9ms)
+			SetLoadedEditorAssemblies (9ms)
 			RefreshPlugins (0ms)
 			BeforeProcessingInitializeOnLoad (2ms)
-			ProcessInitializeOnLoadAttributes (136ms)
-			ProcessInitializeOnLoadMethodAttributes (49ms)
+			ProcessInitializeOnLoadAttributes (152ms)
+			ProcessInitializeOnLoadMethodAttributes (58ms)
 			AfterProcessingInitializeOnLoad (0ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
@@ -115,55 +115,55 @@ Domain Reload Profiling: 967ms
 ========================================================================
 Worker process is ready to serve import requests
 Begin MonoManager ReloadAssembly
-- Loaded All Assemblies, in  0.810 seconds
-Refreshing native plugins compatible for Editor in 5.01 ms, found 3 plugins.
+- Loaded All Assemblies, in  5.187 seconds
+Refreshing native plugins compatible for Editor in 4.39 ms, found 3 plugins.
 Native extension for WindowsStandalone target not found
 Package Manager log level set to [2]
 [Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
 [Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
 [Package Manager] Cannot connect to Unity Package Manager local server
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.763 seconds
-Domain Reload Profiling: 1570ms
-	BeginReloadAssembly (220ms)
+- Finished resetting the current domain, in  0.571 seconds
+Domain Reload Profiling: 5755ms
+	BeginReloadAssembly (176ms)
 		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (8ms)
+		DisableScriptedObjects (6ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (29ms)
-	RebuildCommonClasses (42ms)
-	RebuildNativeTypeToScriptingClass (12ms)
-	initialDomainReloadingComplete (44ms)
-	LoadAllAssembliesAndSetupDomain (489ms)
-		LoadAssemblies (403ms)
+		CreateAndSetChildDomain (22ms)
+	RebuildCommonClasses (34ms)
+	RebuildNativeTypeToScriptingClass (11ms)
+	initialDomainReloadingComplete (39ms)
+	LoadAllAssembliesAndSetupDomain (4924ms)
+		LoadAssemblies (4341ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (221ms)
-			TypeCache.Refresh (196ms)
-				TypeCache.ScanAssembly (177ms)
-			ScanForSourceGeneratedMonoScriptInfo (18ms)
-			ResolveRequiredComponents (5ms)
-	FinalizeReload (764ms)
+		AnalyzeDomain (698ms)
+			TypeCache.Refresh (677ms)
+				TypeCache.ScanAssembly (604ms)
+			ScanForSourceGeneratedMonoScriptInfo (15ms)
+			ResolveRequiredComponents (4ms)
+	FinalizeReload (571ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (505ms)
+		SetupLoadedEditorAssemblies (421ms)
 			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (7ms)
+			InitializePlatformSupportModulesInManaged (5ms)
 			SetLoadedEditorAssemblies (5ms)
 			RefreshPlugins (0ms)
-			BeforeProcessingInitializeOnLoad (79ms)
-			ProcessInitializeOnLoadAttributes (385ms)
-			ProcessInitializeOnLoadMethodAttributes (25ms)
-			AfterProcessingInitializeOnLoad (4ms)
+			BeforeProcessingInitializeOnLoad (62ms)
+			ProcessInitializeOnLoadAttributes (327ms)
+			ProcessInitializeOnLoadMethodAttributes (19ms)
+			AfterProcessingInitializeOnLoad (3ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (9ms)
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.09 seconds
-Refreshing native plugins compatible for Editor in 7.62 ms, found 3 plugins.
+		AwakeInstancesAfterBackupRestoration (7ms)
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.11 seconds
+Refreshing native plugins compatible for Editor in 4.06 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 3075 Unused Serialized files (Serialized files now loaded: 0)
 Unloading 31 unused Assets / (56.3 KB). Loaded Objects now: 3537.
-Memory consumption went from 114.3 MB to 114.2 MB.
-Total: 4.292400 ms (FindLiveObjects: 0.267300 ms CreateObjectMapping: 0.269100 ms MarkObjects: 3.627900 ms  DeleteObjects: 0.127100 ms)
+Memory consumption went from 114.2 MB to 114.2 MB.
+Total: 3.306600 ms (FindLiveObjects: 0.389800 ms CreateObjectMapping: 0.416300 ms MarkObjects: 2.402500 ms  DeleteObjects: 0.097000 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
@@ -180,150 +180,193 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
-  Time since last request: 215691.304913 seconds.
-  path: Assets/assets/exo materials/Materials
-  artifactKey: Guid(e316233abd81cbe42812991b89eaf7cc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/assets/exo materials/Materials using Guid(e316233abd81cbe42812991b89eaf7cc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6372791086d817f3f659c8db4075bc84') in 0.002713 seconds
+  Time since last request: 300340.086387 seconds.
+  path: Assets/assets/exo materials/Models/potted_plant_04_4k.blend
+  artifactKey: Guid(b9d4e78835b4e99488e0a0e5211ad452) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/assets/exo materials/Models/potted_plant_04_4k.blend using Guid(b9d4e78835b4e99488e0a0e5211ad452) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bfa713f2acba0c396f16eebe9d6954e3') in 0.109022 seconds
 Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 0
+Number of asset objects unloaded after import = 1
 ========================================================================
 Received Import Request.
-  Time since last request: 9.987291 seconds.
-  path: Assets/assets/exo materials/Models/Interior_Furniture_vl0jbem_3d_Preview.png
-  artifactKey: Guid(9d67710b3d3feb6459bdd3839ca13a14) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/assets/exo materials/Models/Interior_Furniture_vl0jbem_3d_Preview.png using Guid(9d67710b3d3feb6459bdd3839ca13a14) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8e3852f3bb2b0538abcde84d7230ab0d') in 0.097328 seconds
+  Time since last request: 91.071396 seconds.
+  path: Assets/assets/exo materials/Models/potted_plant_04_4k.fbx
+  artifactKey: Guid(eb8dc185f8de1444da9e849ee193eb80) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/assets/exo materials/Models/potted_plant_04_4k.fbx using Guid(eb8dc185f8de1444da9e849ee193eb80) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8be3b1588a44519ab269a0afd31c518d') in 0.364730 seconds
 Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
+Number of asset objects unloaded after import = 8
 ========================================================================
 Received Import Request.
-  Time since last request: 20.451880 seconds.
-  path: Assets/assets/exo materials/Models/vl0jbem_LOD1.fbx
-  artifactKey: Guid(732775891c381fd42a0d1741538ab426) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/assets/exo materials/Models/vl0jbem_LOD1.fbx using Guid(732775891c381fd42a0d1741538ab426) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '26c2a0327c88f6d445e216389e9c3584') in 0.291779 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 10
-========================================================================
-Received Import Request.
-  Time since last request: 23.024084 seconds.
-  path: Assets/assets/exo materials/Materials/Concrete_1_Albedo.png
-  artifactKey: Guid(a9be2c78efe469c4e86b97ef28f909fb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/assets/exo materials/Materials/Concrete_1_Albedo.png using Guid(a9be2c78efe469c4e86b97ef28f909fb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ba868e7b2d4f4ebb669fd9484d006f08') in 0.028755 seconds
+  Time since last request: 42.680683 seconds.
+  path: Assets/assets/exo materials/Materials/plant/potted_plant_04_diff_4k.jpg
+  artifactKey: Guid(7c6972c1b938ca041865ac5cd4fa4162) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/assets/exo materials/Materials/plant/potted_plant_04_diff_4k.jpg using Guid(7c6972c1b938ca041865ac5cd4fa4162) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f5adffa644249615ddda452b4b9f9a1e') in 0.083086 seconds
 Number of updated asset objects reloaded before import = 0
 Number of asset objects unloaded after import = 2
 ========================================================================
 Received Import Request.
-  Time since last request: 0.008631 seconds.
-  path: Assets/assets/exo materials/Materials/Concrete_1_Normal.png
-  artifactKey: Guid(bedcdc37f8449bc45939faaacadefd09) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/assets/exo materials/Materials/Concrete_1_Normal.png using Guid(bedcdc37f8449bc45939faaacadefd09) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'af8db4060082ae659b16bfad5da99071') in 0.038854 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 0.000031 seconds.
-  path: Assets/assets/exo materials/Materials/Kettle_D.png
-  artifactKey: Guid(a8470a6b28e539c49a273a9bb4084eba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/assets/exo materials/Materials/Kettle_D.png using Guid(a8470a6b28e539c49a273a9bb4084eba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '70950f5359f49e11109cfbfb65513b1d') in 0.038777 seconds
+  Time since last request: 0.000016 seconds.
+  path: Assets/assets/exo materials/Materials/plant/potted_plant_04_rough_4k.jpg
+  artifactKey: Guid(96f4483a231e66842b14997c3a859e8f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/assets/exo materials/Materials/plant/potted_plant_04_rough_4k.jpg using Guid(96f4483a231e66842b14997c3a859e8f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '43140f12e3a1a6cc6672871800e2388c') in 0.025966 seconds
 Number of updated asset objects reloaded before import = 0
 Number of asset objects unloaded after import = 2
 ========================================================================
 Received Import Request.
   Time since last request: 0.000022 seconds.
-  path: Assets/assets/exo materials/Materials/Pavement_SmallMoss_Albedo.png
-  artifactKey: Guid(61c9db34c7388e542b038d451d07ea85) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/assets/exo materials/Materials/Pavement_SmallMoss_Albedo.png using Guid(61c9db34c7388e542b038d451d07ea85) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f00b0fc3459f4cb74867df71d18a7eb0') in 0.037517 seconds
+  path: Assets/assets/exo materials/Materials/plant/potted_plant_04_nor_gl_4k.exr
+  artifactKey: Guid(7ccb9de0aeea4fe46a36c238d84e3bd5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/assets/exo materials/Materials/plant/potted_plant_04_nor_gl_4k.exr using Guid(7ccb9de0aeea4fe46a36c238d84e3bd5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c08cf3034d39b6c84a886b1b52fa9c75') in 0.039709 seconds
 Number of updated asset objects reloaded before import = 0
 Number of asset objects unloaded after import = 2
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000036 seconds.
-  path: Assets/assets/exo materials/Materials/Kettle_F.png
-  artifactKey: Guid(138f23ef542aba943aa5774d9d466ed8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/assets/exo materials/Materials/Kettle_F.png using Guid(138f23ef542aba943aa5774d9d466ed8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e0ea87ab96014240a5d69154c6500298') in 0.027974 seconds
+  Time since last request: 95.504138 seconds.
+  path: Assets/assets/exo materials/Materials/Fruits
+  artifactKey: Guid(5295ea5c61428ab48ad98d718ab7c05a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/assets/exo materials/Materials/Fruits using Guid(5295ea5c61428ab48ad98d718ab7c05a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '67672eb50387727e3f789006c8e19c48') in 0.000607 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 164.056578 seconds.
+  path: Assets/assets/exo materials/Models/uploads_files_2938159_Fruits.obj
+  artifactKey: Guid(01547c2de6410c44d8f1654b59cddc99) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/assets/exo materials/Models/uploads_files_2938159_Fruits.obj using Guid(01547c2de6410c44d8f1654b59cddc99) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '832b0af12c0a49eb7adbd2c5cebed891') in 0.070731 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time since last request: 165.010208 seconds.
+  path: Assets/assets/exo materials/Models/food_apple_01_4k.fbx
+  artifactKey: Guid(d8f8a791083f2214eb987e7022d84b92) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/assets/exo materials/Models/food_apple_01_4k.fbx using Guid(d8f8a791083f2214eb987e7022d84b92) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1316675eb34dc3189f9ccdffac733158') in 0.043598 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 8
+========================================================================
+Received Import Request.
+  Time since last request: 20.515570 seconds.
+  path: Assets/assets/exo materials/Models/food_lime_01_4k.fbx
+  artifactKey: Guid(ebb581fca1fefc5478dc6b6208b10d08) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/assets/exo materials/Models/food_lime_01_4k.fbx using Guid(ebb581fca1fefc5478dc6b6208b10d08) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '60d03ea27c915d6cf8c1e5b0eba9e92b') in 0.034769 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 8
+========================================================================
+Received Import Request.
+  Time since last request: 28.398562 seconds.
+  path: Assets/assets/exo materials/Materials/Fruits/food_lime_01_diff_4k.jpg
+  artifactKey: Guid(f5ba94751360937488d44e56d7bc9aa4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/assets/exo materials/Materials/Fruits/food_lime_01_diff_4k.jpg using Guid(f5ba94751360937488d44e56d7bc9aa4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8edd2430d8a5389914051a2c92a498ef') in 0.029859 seconds
 Number of updated asset objects reloaded before import = 0
 Number of asset objects unloaded after import = 2
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000049 seconds.
-  path: Assets/assets/exo materials/Materials/Kettle_E.png
-  artifactKey: Guid(3dedc849656ed1e4bbe5b840e2a102a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/assets/exo materials/Materials/Kettle_E.png using Guid(3dedc849656ed1e4bbe5b840e2a102a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4940537e1c3c0eed768a2eb5a02310ad') in 0.026477 seconds
+  Time since last request: 0.000024 seconds.
+  path: Assets/assets/exo materials/Materials/Fruits/food_lime_01_rough_4k.jpg
+  artifactKey: Guid(dfbd1700574882d4385b3f74ca04a664) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/assets/exo materials/Materials/Fruits/food_lime_01_rough_4k.jpg using Guid(dfbd1700574882d4385b3f74ca04a664) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '25f40a6509142d1f1704d1cb0dd30c7f') in 0.035830 seconds
 Number of updated asset objects reloaded before import = 0
 Number of asset objects unloaded after import = 2
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000075 seconds.
-  path: Assets/assets/exo materials/Materials/Pavement_SmallMoss_normal.png
-  artifactKey: Guid(c66795f6769dbb141aa3ca1dac599eb8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/assets/exo materials/Materials/Pavement_SmallMoss_normal.png using Guid(c66795f6769dbb141aa3ca1dac599eb8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9175fc49fcbe9af4543129521dc16991') in 0.024989 seconds
+  Time since last request: 12.461496 seconds.
+  path: Assets/assets/exo materials/Materials/Fruits/food_apple_01_diff_4k.jpg
+  artifactKey: Guid(c7fa0ec01911bd7418fe8aed038622d6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/assets/exo materials/Materials/Fruits/food_apple_01_diff_4k.jpg using Guid(c7fa0ec01911bd7418fe8aed038622d6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '237c600e440da949896019482c21601d') in 0.031264 seconds
 Number of updated asset objects reloaded before import = 0
 Number of asset objects unloaded after import = 2
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000020 seconds.
-  path: Assets/assets/exo materials/Materials/Mug_Albedo.png
-  artifactKey: Guid(d3d996fde024544469e3ddbaad55efa2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/assets/exo materials/Materials/Mug_Albedo.png using Guid(d3d996fde024544469e3ddbaad55efa2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3f573926108a392cc071807b6a7c1bba') in 0.026938 seconds
+  Time since last request: 19.157987 seconds.
+  path: Assets/assets/exo materials/Materials/Fruits/M_lime.mat
+  artifactKey: Guid(35213aee0b11f184c85dae6b5699570c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/assets/exo materials/Materials/Fruits/M_lime.mat using Guid(35213aee0b11f184c85dae6b5699570c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cefcf1b19cc7399be1a7de815a8e628b') in 0.024440 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 30.213373 seconds.
+  path: Assets/assets/exo materials/Materials/Fruits/M_apple.mat
+  artifactKey: Guid(84bbb0e21da6b784bb05fcdb1af183e6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/assets/exo materials/Materials/Fruits/M_apple.mat using Guid(84bbb0e21da6b784bb05fcdb1af183e6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b517b1abc8cc15543d9c8e40f2a8cad6') in 0.012011 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 150.437596 seconds.
+  path: Assets/assets/exo materials/Materials/Fruits/Materials
+  artifactKey: Guid(eb3ab6f8d2cb7d24b9658c6042f2dc13) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/assets/exo materials/Materials/Fruits/Materials using Guid(eb3ab6f8d2cb7d24b9658c6042f2dc13) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4579d1b13bdab74a15748e1e06688899') in 0.000687 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.086446 seconds.
+  path: Assets/assets/exo materials/Materials/Fruits/Materials/food_lime_01_diff_4k.mat
+  artifactKey: Guid(c447df9bdf21b134785670061ce4c591) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/assets/exo materials/Materials/Fruits/Materials/food_lime_01_diff_4k.mat using Guid(c447df9bdf21b134785670061ce4c591) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '51feba50051aa37180523801c42368f7') in 0.019504 seconds
 Number of updated asset objects reloaded before import = 0
 Number of asset objects unloaded after import = 2
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000015 seconds.
-  path: Assets/assets/exo materials/Materials/M_Concrete.mat
-  artifactKey: Guid(d8f4a1d1116d0e34bbd1eae784f35e01) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/assets/exo materials/Materials/M_Concrete.mat using Guid(d8f4a1d1116d0e34bbd1eae784f35e01) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e58820c2e031d37f5eff216a6e0faa43') in 0.392268 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 4
-========================================================================
-Received Import Request.
-  Time since last request: 0.000023 seconds.
-  path: Assets/assets/exo materials/Materials/Plastic_Albedo.tif
-  artifactKey: Guid(e7c5de6f067121048afb500342119e8b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/assets/exo materials/Materials/Plastic_Albedo.tif using Guid(e7c5de6f067121048afb500342119e8b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '17bc709ff0ea4c53174f247a3ec051fb') in 0.036965 seconds
+  Time since last request: 76.031103 seconds.
+  path: Assets/assets/exo materials/Materials/Fruits/food_lime_01_nor_gl_4k.exr
+  artifactKey: Guid(d0205d69bf3f0684dbdb29d16759a7a0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/assets/exo materials/Materials/Fruits/food_lime_01_nor_gl_4k.exr using Guid(d0205d69bf3f0684dbdb29d16759a7a0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a5598076c4646209cc3cbac1fee769d4') in 0.098319 seconds
 Number of updated asset objects reloaded before import = 0
 Number of asset objects unloaded after import = 2
 ========================================================================
 Received Import Request.
-  Time since last request: 0.001369 seconds.
-  path: Assets/assets/exo materials/Materials/Metal_MetallicSmoothness.tif
-  artifactKey: Guid(b682c47a8f368c14b9f3deebce5043be) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/assets/exo materials/Materials/Metal_MetallicSmoothness.tif using Guid(b682c47a8f368c14b9f3deebce5043be) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2caebe9564dd8fbc02102ce5cf00005f') in 0.047253 seconds
+  Time since last request: 7.008836 seconds.
+  path: Assets/assets/exo materials/Materials/Fruits/food_apple_01_nor_gl_4k.exr
+  artifactKey: Guid(08c92d4fb1e0c814ba16ef4a28b78976) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/assets/exo materials/Materials/Fruits/food_apple_01_nor_gl_4k.exr using Guid(08c92d4fb1e0c814ba16ef4a28b78976) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '44bcec6788871ba874c271d8785ea366') in 0.021845 seconds
 Number of updated asset objects reloaded before import = 0
 Number of asset objects unloaded after import = 2
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000185 seconds.
-  path: Assets/assets/exo materials/Materials/Kettle_A.png
-  artifactKey: Guid(3fe84bde0efac634a9875918fa619c94) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/assets/exo materials/Materials/Kettle_A.png using Guid(3fe84bde0efac634a9875918fa619c94) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9bb0adbb69bd18b278e44ea742a08822') in 0.052832 seconds
+  Time since last request: 367.602002 seconds.
+  path: Assets/assets/exo materials/Materials/New Material.mat
+  artifactKey: Guid(dc60e23a2ccf8a04cb338db5d451bb93) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/assets/exo materials/Materials/New Material.mat using Guid(dc60e23a2ccf8a04cb338db5d451bb93) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '62dc7a59f72965f2abeffd9ad797f7b1') in 0.015086 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 15.363897 seconds.
+  path: Assets/assets/exo materials/Materials/pot
+  artifactKey: Guid(d48e7b0c37481824c9d1b9f88d3968e9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/assets/exo materials/Materials/pot using Guid(d48e7b0c37481824c9d1b9f88d3968e9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fda607bd598918c6e53825e4bc5279e8') in 0.000645 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 15.977775 seconds.
+  path: Assets/assets/exo materials/Materials/pot/15573870_Glass_plate_001.jpg
+  artifactKey: Guid(ce5037f442e4c3047883d5d181b6159b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/assets/exo materials/Materials/pot/15573870_Glass_plate_001.jpg using Guid(ce5037f442e4c3047883d5d181b6159b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a0e07e06f87ebc12a6828225faa1fa26') in 0.038725 seconds
 Number of updated asset objects reloaded before import = 0
 Number of asset objects unloaded after import = 2
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000017 seconds.
-  path: Assets/assets/exo materials/Materials/Plastic_Normal.tif
-  artifactKey: Guid(53103342acd51f24ab18b58b18024a5d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/assets/exo materials/Materials/Plastic_Normal.tif using Guid(53103342acd51f24ab18b58b18024a5d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '702f7c542f9d876561f6647ad1ca796e') in 0.033822 seconds
+  Time since last request: 13.002020 seconds.
+  path: Assets/assets/exo materials/Materials/pot/M_windows.mat
+  artifactKey: Guid(eb3054428f3d7fe4bb124bee2e65a7dc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/assets/exo materials/Materials/pot/M_windows.mat using Guid(eb3054428f3d7fe4bb124bee2e65a7dc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0f93f5aef0f20770c1051d045c2ea68b') in 0.012830 seconds
 Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
+Number of asset objects unloaded after import = 1
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000019 seconds.
-  path: Assets/assets/exo materials/Materials/Metal_Albedo.tif
-  artifactKey: Guid(7eb6cfb2f02ae7b4da435384e3e79779) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/assets/exo materials/Materials/Metal_Albedo.tif using Guid(7eb6cfb2f02ae7b4da435384e3e79779) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3edc0be0b3916519a67219157e9529b1') in 0.029869 seconds
+  Time since last request: 464.197873 seconds.
+  path: Assets/assets/exo materials/Models/uploads_files_2021223_vase_lowPoly.fbx
+  artifactKey: Guid(3f32c63de9d2c454ab4e354459e91230) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/assets/exo materials/Models/uploads_files_2021223_vase_lowPoly.fbx using Guid(3f32c63de9d2c454ab4e354459e91230) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2e5e3adbad62f3f789069d1270f6a7c8') in 0.043195 seconds
 Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
+Number of asset objects unloaded after import = 15
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000021 seconds.
-  path: Assets/assets/exo materials/Materials/M_Mug.mat
-  artifactKey: Guid(c79ccecd93447c740bad8688e37b49d1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/assets/exo materials/Materials/M_Mug.mat using Guid(c79ccecd93447c740bad8688e37b49d1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9d7cdf36e7eaafde6465b26c31408191') in 0.387513 seconds
+  Time since last request: 359.686285 seconds.
+  path: Assets/assets/exo materials/Materials/pot/M_windows.mat
+  artifactKey: Guid(eb3054428f3d7fe4bb124bee2e65a7dc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/assets/exo materials/Materials/pot/M_windows.mat using Guid(eb3054428f3d7fe4bb124bee2e65a7dc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ca5ab07dbd4f5d1bbfd06207aa3a5cb1') in 0.338093 seconds
 Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 4
-Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
-TcpMessagingSession - receive error: operation aborted. errorcode: 995, details: L’opération d’entrée/sortie a été abandonnée en raison de l’arrêt d’un thread ou à la demande d’une application.
-AssetImportWorker is now disconnected from the server
-Process exiting
-Exiting without the bug reporter. Application will terminate with return code 0
+Number of asset objects unloaded after import = 1
